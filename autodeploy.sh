@@ -46,9 +46,6 @@ sudo cp /root/config.json /etc/consul.d/config.json
 # 1. encrypt -- new enrcypt key from colsul keygen
 # 2. start_join - new IP address
 
-
-
-
 # auto boot stap
 
 sudo echo "
@@ -137,3 +134,5 @@ sudo systemctl restart consul
 # test
 echo 'ok' > ./install.txt
 sudo shutdown -r now
+
+# my second commit
